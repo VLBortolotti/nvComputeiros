@@ -1,12 +1,9 @@
-HTML e o cuidado com o conteúdo.
+HTML e o cuidado com o conteudo.
 
-Linguagem para marcação de hipertexto, em tradução, o HTML é a linguagem que vai trabalhar o conteúdo, sem se preocupar com a sua forma. Usando marcações simples, como <p> e </p> para determinar um parágrafo todo o texto está escrito, informando aos navegadores como o conteúdo deve ser apresentado.
+Linguagem para marcacao de hipertexto, em traducao, o HTML e a linguagem que vai trabalhar o conteudo, sem se preocupar com a sua forma. Usando marcacoes simples, como <p> e </p> para determinar um paragrafo todo o texto esta escrito, informando aos navegadores como o conteudo deve ser apresentado.
 
-É importante seguir as boas práticas na hora de desenvolver o seu HTML, que atualmente está na versão 5, visto que as ferramentas de busca na internet também interpretam as informações lá descritas e usam para recomendar o site nos resultados de pesquisa. 
+E importante seguir as boas praticas na hora de desenvolver o seu HTML, que atualmente esta na versão 5, visto que as ferramentas de busca na internet tambem interpretam as informacoes la descritas e usam para recomendar o site nos resultados de pesquisa. 
 
-As marcações também vão definir como os espaços da página são ocupados, sejam textos, títulos, links, fotos. Ou seja, é a forma de organizar estruturada o conteúdo. Mas e como fazer para deixar tudo isso mais agradável aos olhos, já que em nenhum momento se foi falado em estilização.
+As marcacoes tambem vao definir como os espacos da pagina sao ocupados, sejam textos, titulos, links, fotos. Ou seja, e a forma de organizar estruturada o conteudo. Mas e como fazer para deixar tudo isso mais agradavel aos olhos, ja que em nenhum momento se foi falado em estilizacao.
 
-Para isso, temos as CSS e esse é um assunto para outro artigo...
- 
-
- 
+Para isso, temos as CSS e esse e um assunto para outro artigo...
