@@ -1,0 +1,21 @@
+O que é o Arduino e por que ele é usado?
+
+A definição que se encontra na internet é que o Arduino é uma plataforma open source ou hardware para prototipagem eletrônica, projetada com um microcontrolador Atmel AVR com suporte  para entrada/saída dados já embutido, com linguagem de programação padrão baseado no em C/C++, mas explicando de uma forma bem simples, Arduino é uma plaquinha para se fazer projetos de eletrônica de uma forma bem mais simples que os métodos anteriores.
+
+Quis descrever o Arduino como sendo uma plaquinha, porque é assim que muitos iniciantes  veem o Arduino,  mas essa plaquinha é circuito eletrônico com uma capacidade de processamento até que boa que nos permite fazer várias coisas muito legais sem muita complicação.
+
+Utilzamos Arduino hoje porque por causa da velocidade que se consegue desenvolver algo, e se é rápido também é mais simples, isso é conseguido devido a modularidade do Arduino, da farta documentação e da grande quantidade de módulos disponíveis para se conectar ao Arduino.
+
+Antes do Arduino os projetos eram realizados soldando componente por componente, e depois criando módulo por módulo, cabo por cabo, isso exigia habilidade com ferro de solda, e atrasava o desenvolvimento e muitas vezes até inviabilizava devido a complexidade de alguns projetos.
+
+Com o Arduino, a placa já vem pronta com todos os componentes, conectores e soquetes soldados, não precisa montar tudo do zero, então é só conectar as partes e partir para o projeto realmente, o problema passa a ser a solução do desenvolvimento da aplicação e não o problema para montagem do hardware básico.
+
+Qual é a linguagem de programação do Arduino?
+
+A linguagem de programação utilizada para programar o Arduino é a linguagem C++ com algumas pequenas modificações.
+
+Essa linguagem de programação pode se dizer que, se não for a linguagem de programação mais poderosa é uma delas, porque essa linguagem não tem limitações, com C++ consegue-se o acesso a todo o hardware do aparelho, é muito utilizada em computadores PC, mas agora também no Arduino.
+
+O C++ é uma linguagem rápida e é relativamente fácil de se compreender. Alguns podem dizer que não é tão simples de compreender como outras linguagens mais modernas atualmente, mas a comparação que faço é com a linguagem ASM que é a linguagem mais perto da linguagem de máquina que uma pessoa pode chegar sem ficar doida! rs... Para se ter uma base de comparação,  alguns microcontroladores PICs mais limitados eram e ainda são programados em linguagem ASM porque o hardware é muito mais simples exige um código mais enxuto, e isso só é conseguido com linguagem ASM.
+
+No Arduino não é necessário utilizar linguagem ASM, porque  o processador tem mais capacidade, e nos da o luxo de gastar um pouco mais de recursos de memória e processamento para manter o código mais fácil de entender.

@@ -1,0 +1,11 @@
+Diferentes áreas de aplicação de programação
+
+Como sabemos, o mundo está cada vez mais conectados pela internet e isso não poderia deixar de transbordar para as outras áreas. Qualquer pessoa é capaz de aprender a desenvolver um código eficiente e já se pode ver tal efeito. 
+
+Um desses mercados é a comunicação. Para o jornalista Pablo Siviero, a programação facilita a prática do trabalho, já que vai ajudar o leitor a compreender o conteúdo. Na opinião dele, o conhecimento do ramo para o qual o trabalho está sendo desenvolvido é importante.
+
+Por outro lado, Pablo também acredita que mesmo com softwares que criem conteúdo a partir de algoritmos, a percepção humana sempre será necessária para construção de uma boa história. A estudante de oceanologia Kristhal Dotto também é um caso de pessoa que usa programação sem necessariamente trabalhar na área de tecnologia. 
+
+Ela usa o Python para fazer análise de dados oceanográficos e meteorológicos. Acreditando que a programação facilita o trabalho, Kritsthal também acha que pode haver uma troca de funções, como um profissional vindo da TI ou ela própria ir para uma empresa de tecnologia, por exemplo. 
+
+A opinião da Kristhal, coincide com a psicóloga de RH Joyce Borges, que acha interessante essa mescla de diferentes áreas. A programação hoje é uma ferramenta que pode ser utilizada em qualquer área do conhecimento e você, que está pensando em virar desenvolvedor pode trabalhar em qualquer área do conhecimento, não necessariamente em uma empresa de tecnologia.

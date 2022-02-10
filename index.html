@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<title>Computeiros</title>
+
+		<!-- icones -->
+		<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+		<!-- Material Icons -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar">
+				<a class="titulo">Computeiros</a>
+
+				<ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="sobre/sobre.html" class="nav-link">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contato/contato.html" class="nav-link">Contato</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="Login/login.html" class="nav-link">Login</a>
+                    </li>
+                </ul>
+
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Seta ir para cima -->
+		<button id="btnScrollToTop" title="Voltar para o topo">
+			<i class="material-icons">arrow_upward</i>
+		</button>
+
+		<div class="row">
+			<main>
+				<!-- Coluna Esquerda -->
+				<div class="leftcolumn">
+					<div class="container">
+
+						<div class="missao">
+							<h1>Missão</h1>
+							<div class="texto">
+								<p class="texto-missao">
+									Esta página foi criada por estudantes do curso de Sistemas de Informação para a disciplina de Sistemas para a Internet I.<br>O objetivo é apresentar artigos interessantes para o leitor sobre programação, com um foco especial em web e embarcados. 
+								</p>
+							</div>
+						</div>	
+
+						<!----- Artigo um ----->
+						<div class="card-artigos" onclick="artigoClicado('artigo1')">
+							<div class="filterDiv web">
+								<h2>Oque é HTML5</h2>
+
+								<a href="noticias/noticias.html" target="_blank">
+									<img src="noticias/imagens/html.jpg" alt="HTML" class="imagem" title="Adicionado em: 8, dezembro, 2021. Clique para ler.">
+								</a>
+
+								<br>
+								<p>
+									Este artigo fala sobre oque é a linguagem de marcação HTML5, e como a mesma interage com a web.
+								</p>
+							</div> <!-- filterDiv web-->
+						</div class="card">
+						<!---xx-- Artigo um --xx--->
+
+						<!----- Artigo dois ----->
+						<div class="card-artigos" onclick="artigoClicado('artigo2')">
+							<div class="filterDiv embarcados">
+								<h2>Oque são sistemas embarcados</h2>
+
+								<a href="noticias/noticias.html" target="_blank">
+									<img src="noticias/imagens/embarcados.jpg" alt="esp32" class="imagem"title="Adicionado em: 8, dezembro, 2021. Clique para ler.">
+								</a>
+
+								<br>
+								<p>
+									Este artigo fala sobre oque são sistemas embarcados, conhecida por ser a área da programação mais complexa, e muito utilizada juntamente com eletrônica, automação e desenvolvimento de hardware.	
+								</p>
+							</div>
+						</div class="card">
+						<!---xx-- Artigo dois --xx--->
+
+						<!----- Artigo três ----->
+						<div class="card-artigos" onclick="artigoClicado('artigo3')">
+							<div class="filterDiv web">
+								<h2>Oque é CSS</h2>
+
+								<a href="noticias/noticias.html" target="_blank">
+									<img src="noticias/imagens/CSS.webp" alt="css" class="imagem"title="Adicionado em: 8, dezembro, 2021. Clique para ler.">
+								</a>
+
+								<br>
+								<p>
+									Este artigo fala sobre oque é CSS, e como a mesma interage com a web.
+								</p>
+							</div>
+						</div class="card">
+						<!---xx-- Artigo três --xx--->
+
+						<!----- Artigo quatro ----->
+						<div class="card-artigos" onclick="artigoClicado('artigo4')">
+							<div class="filterDiv embarcados">
+								<h2>Programando ESP32</h2>
+								
+								<a href="noticias/noticias.html" target="_blank">
+									<img src="esp32.jpg" alt="esp32" class="imagem"title="Adicionado em: 8, dezembro, 2021. Clique para ler.">
+								</a>
+
+								<br>
+								<p>
+									Este artigo fala sobre oque é o microcontrolador ESP32, o mais famoso microcontrolador na indústria atual.
+								</p>
+							</div>
+						</div class="card">
+						<!---xx-- Artigo quatro --xx--->
+
+						<!----- Artigo cinco ----->
+						<div class="card-artigos" onclick="artigoClicado('artigo5')">
+							<div class="filterDiv web">
+								<h2>Como funciona o JavaScript</h2>
+
+								<a href="noticias/noticias.html" target="_blank">
+									<img src="noticias/imagens/JavaScript.png" alt="JavaScript" class="imagem"title="Adicionado em: 8, dezembro, 2021. Clique para ler.">
+								</a>
+
+								<br>
+								<p>
+									Este artigo fala sobre oque é a linguagem de programação JavaScript, que está em alta atualmente, geralmente associada a desenvolvimento front-end.
+								</p>
+							</div> <!-- filterDiv web-->
+						</div class="card">
+						<!---xx-- Artigo cinco --xx--->
+
+						<!----- Artigo seis ----->
+						<div class="card-artigos" onclick="artigoClicado('artigo6')">
+							<div class="filterDiv embarcados">
+								<h2>Programando Arduino</h2>
+
+								<a href="noticias/noticias.html" target="_blank">
+									<img src="noticias/imagens/arduino.jpeg" alt="esp32" class="imagem"title="Adicionado em: 8, dezembro, 2021. Clique para ler.">
+								</a>
+
+								<p>Texto...</p>
+								<p>
+									Este artigo fala sobre oque é o microcontrolador Arduino e como programá-lo, o mais famoso microcontrolador no meio acadêmico atual.
+								</p>
+							</div>
+						</div class="card">
+						<!---xx-- Artigo seis --xx--->
+
+						<!----- Artigo sete ----->
+						<div class="card-artigos" onclick="artigoClicado('artigo7')">
+							<div class="filterDiv web">
+								<h2>Para quê servem os navegadores</h2>
+
+								<a href="noticias/noticias.html" target="_blank">
+									<img src="noticias/imagens/navegadores.png" alt="esp32" class="imagem"title="Adicionado em: 8, dezembro, 2021. Clique para ler.">
+								</a>
+
+								<br>
+								<p>
+									Este artigo fala sobre como funciona um navegador, e como este interage com o computador do usuário e a internet.
+								</p>
+							</div> <!-- filterDiv web-->
+						</div class="card">
+						<!---xx-- Artigo sete --xx--->
+
+						<!----- Artigo oito ----->
+						<div class="card-artigos" onclick="artigoClicado('artigo8')">
+							<div class="filterDiv embarcados">
+								<h2>Oque é a linguagem Assembly</h2>
+
+								<a href="noticias/noticias.html" target="_blank">
+									<img src="noticias/imagens/assembly.jpeg" alt="esp32" class="imagem" title="Adicionado em: 8, dezembro, 2021. Clique para ler.">
+								</a>
+
+								<br>
+								<p>
+									Este artigo busca desmistificar e falar sobre a linguagem de programação Assembly, a mais baixo nível de todas. Dita por muitos ser inútil, apesar de ser a linguagem pilar para o funcionamento de qualquer dispositivo eletrônico, incluindo os nossos computadores. 
+								</p>
+							</div>
+						</div class="card">
+						<!---xx-- Artigo oito --xx--->
+
+						<!----- Artigo nove ----->
+						<div class="card-artigos" onclick="artigoClicado('artigo9')">
+							<div class="filterDiv web">
+								<h2>Como funciona a internet</h2>
+								
+								<a href="noticias/noticias.html" target="_blank">
+									<img src="noticias/imagens/internet.webp" alt="internet" class="imagem" title="Adicionado em: 8, dezembro, 2021. Clique para ler.">
+								</a>
+
+								<br>
+								<p>
+									Este artigo fala sobre como a internet funciona, e como esta interage com os navegadores, além de como os dados são transportados.
+								</p>
+							</div> <!-- filterDiv web-->
+						</div class="card">
+						<!---xx-- Artigo nove --xx--->
+
+						<!----- Artigo dez ----->
+						<div class="card-artigos" onclick="artigoClicado('artigo10')">
+							<div class="filterDiv embarcados">
+								<h2>Programação em C</h2>
+
+								<a href="noticias/noticias.html" target="_blank">
+									<img src="noticias/imagens/Cprogramming.png" alt="esp32" class="imagem" title="Adicionado em: 8, dezembro, 2021. Clique para ler.">
+								</a>
+
+								<br>
+								<p>
+									Este artigo fala sobre a linguagem de programação C, que ainda é muito utilizada atualmente.
+								</p>
+							</div>
+						</div class="card">
+						<!---xx-- Artigo dez --xx--->
+					</div>
+			</main>
+
+				</aside>
+				<!-- Coluna Direita -->
+				<div class="rightcolumn">
+
+					<!-- Categorias - Filtro de Busca -->
+					<div class="card">
+						<h3>Categorias</h3><br>
+						<div id="myBtnContainer">
+						  <button class="btn active" onclick="filterSelection('todos')"> Tudo</button>
+						  <br>
+						  <button class="btn" onclick="filterSelection('web')"> Web</button>
+						  <br>
+						  <button class="btn" onclick="filterSelection('embarcados')"> Embarcados</button>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</div>
+
+		<!-- Rodapé -->
+		<footer> 
+			<div class="grupo-1">
+				<div class="box">
+					<figure>
+						<img src="c3.png" alt="logo do c3">
+					</figure>
+				</div>
+			
+				<div class="box">
+					<h2>Sobre nós</h2>
+					<p>
+						Somos quatro estudantes do curso de Sistemas de Informação, FURG, Centro de Ciências Computacionais.
+					</p>
+				</div>
+
+				<div class="box">
+					<h2>Siga-nos</h2>
+					<div class="rede-social">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-instagram"></a>
+						<a href="#" class="fa fa-twitter"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="grupo-2">
+				<small>&copy; 2021 <b>Computeiros</b> - Todos os Direitos Reservados.</small>
+
+			</div>
+		</footer>
+
+		<script src="main.js"></script>
+	</body>
+</html>

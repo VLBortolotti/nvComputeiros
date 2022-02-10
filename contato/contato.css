@@ -1,0 +1,373 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=sawp');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Classes Globais */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary: #8c38ff;
+	--dark:  #212121;
+}
+
+/*-------- Modificando o Header / Título do Site --------*/
+header {
+	background-color: var(--dark);
+	border-bottom: 3px solid var(--primary);
+}
+
+/* Estilizando o próprio menu */
+
+
+.nav-item {
+	list-style: none;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar {
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 24px;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap:60px;
+}
+
+/* Estilizando os links do menu */
+
+.titulo {
+	color: #FFF;
+	font-size: 28px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Fira sans', sans-serif;
+	cursor: default;
+}
+
+.titulo:hover {
+	color: var(--primary);
+}
+
+.nav-link {
+	transition: 0.7s ease;
+}
+
+.nav-link:hover {
+	color: var(--primary);
+}
+
+
+/* Estilizando o menu hamburger */
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+}
+
+.hamburger:hover span:nth-child(2) {
+	transform: translateX(10px);
+	background-color: var(--primary);
+}
+
+/* As barras do menu hamburger */
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: white; 
+}
+
+/* BODY - MAIN - CONTACT FORM - CONTATO */
+
+main {
+	min-height: 100vh;
+	font-family: "Poppins", sans-serif;
+	background: url(furg.png) no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-info {
+	color: #fff;
+	max-width: 500px;
+	line-height: 65px;
+	padding-left: 50px;
+	font-size: 18px;
+}
+
+.contact-info i {
+	margin-right: 20px;
+	font-size: 25px;
+}
+
+.contact-form {
+	max-width: 700px;
+	margin-right: 50px;
+}
+
+.contact-info, .contact-form {
+	flex: 1;
+}
+
+.contact-form h2 {
+	color: black;
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.contact-form .text-box {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	width: calc(50% - 10px); /* VOLTAR AQUI - RESOLVER */
+	height: 50px;
+	padding: 12px;
+	font-size: 15px;
+	border-radius: 5px;
+	box-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	opacity: 0.7;
+}
+
+.contact-form .text-box:first-child {
+	margin-right: 15px;
+}
+
+.contact-form textarea {
+	background: #000;
+	color: #fff;
+	border: none;
+	width: 100%;
+	padding: 12px;
+	font-size: 15px;
+	min-height: 200px;
+	max-height: 400px;
+	resize: vertical;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	opacity: 0.7;
+}
+
+.contact-form .send-btn {
+	float: right;
+	background: #2E94E3;
+	color: #fff;
+	border: none;
+	width: 120px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	transition: 0.3s;
+	transition-property: background;
+	cursor: pointer;
+}
+
+.contact-form .send-btn:hover {
+	background: #0582E3;
+}
+
+/* Mensagem de Alerta */
+.alert-success {
+	z-index: 1;
+	background: #D4EDDA;
+	font-size: 18px;
+	padding: 20px 40px;
+	min-width: 420px;
+	position: fixed;
+	right: 0;
+	top: 10px;
+	border-left: 8px solid #3AD66E;
+	border-radius: 4px;
+}
+
+.alert-error {
+	z-index: 1;
+	background: #FFF3CD;
+	font-size: 18px;
+	padding: 20px 40px;
+	min-width: 420px;
+	position: fixed;
+	right: 0;
+	top: 10px;
+	border-left: 8px solid #FFA502;
+	border-radius: 4px;
+}
+
+
+/*-------- Rodapé --------*/
+footer {
+	width: 100%;
+	background-color: #0a141d;
+	margin-top: 0px;
+	font-family: 'Open Sans', sans-seriff;
+}
+
+footer .grupo-1 {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 45px 0px;
+}
+
+footer .grupo-1 .box figure {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .grupo-1 .box figure img {
+	width: 100px;
+}
+
+footer .grupo-1 .box h2 {
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+footer .grupo-1 .box p {
+	color: #efefef;
+	margin-bottom: 10px;
+}
+
+footer .grupo-1 .rede-social a {
+	display: inline-block;
+	text-decoration: none;
+	width: 50px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	margin-right: 10px;
+	background-color: #0d2033;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+footer .grupo-1 .rede-social a:hover {
+	color: var(--primary);
+}
+
+footer .grupo-2 {
+	background-color: #0a1a2a;
+	padding: 15px 10px;
+	text-align: center;
+	color: #fff;
+}
+
+footer .grupo-2 small {
+	font-size: 15px;
+}
+
+/* Responsivo | telas < 768px */
+@media screen and (max-width: 768px) {
+  
+  .hamburger{
+  	display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+  	opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+  	transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+  	transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .hamburger.active:hover span {
+  	background-color: var(--primary);
+  }
+
+  .nav-menu {
+  	position: fixed;
+  	left: -100%;
+  	top: 70px;
+  	gap: 0;
+  	flex-direction: column;
+  	background-color: #262626;
+  	width: 100%;
+  	text-align: center;
+  	transition: 0.3s;
+  }
+
+  .nav-item {
+  	margin: 16px 0;
+  }
+
+  .nav-menu.active {
+  	left: 0;
+  }
+}
+
+/*----- Footer Responsivo -----*/
+@media screen and (max-width: 991px) {
+  footer .grupo-1 {
+  	width: 90%;
+  	grid-template-columns: repeat(1, 1fr);
+  	grid-gap: 30px;
+  	padding: 35px 0px;
+  }
+}
+
+
+/* ------ Formulario Responsivo ------ */
+@media screen and (max-width: 950px) {
+	.contact-section {
+		flex-direction: column;
+	}
+
+	.contact-info, .contact-form {
+		margin: 30px 50px;
+	}
+
+	.contact-form h2 {
+		font-size: 30px;
+	}
+
+	.contact-form .text-box {
+		width: 100%;
+	}
+}

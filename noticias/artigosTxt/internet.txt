@@ -1,0 +1,11 @@
+Como funciona a internet?
+
+Você por acaso já se perguntou como funciona a internet? De onde vem essa quantidade absurda de informação que nós consumimos diariamente? Como são feitas as páginas e os sites que tanto utilizamos?
+
+Neste artigo falaremos como as páginas da internet funcionam. Os sites estão hospedados em servidores, que são computadores focados em armazenamento de dados. Quando você digita uma URL, que é o endereço do site, você está informando qual servidor você está tentando acessar. 
+
+Dentro deste servidor o conteúdo fica organizado em pastas, por isso os endereços possuem as /. Elas vão direcionar exatamente onde está a página que você está acessando agora. O que o seu computador recebe nada mais é do que um arquivo de texto contendo a página que você está acessando.
+
+O seu navegador é um tradutor que transforma todo um texto que para muitas pessoas não possui sentido algum nas páginas com designs incríveis que vemos todos os dias enquanto navegamos na internet. 
+
+Portanto, lembre-se. Sempre que você estiver em algum site, como este, por exemplo, saiba que por trás do visual pensando diretamente para você apreciar o conteúdo, existem três linguagens complexas trabalhando juntas para termos o resultado na tela: HTML, CSS e Javascript.

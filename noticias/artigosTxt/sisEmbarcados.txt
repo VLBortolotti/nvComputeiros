@@ -1,0 +1,11 @@
+Para começo de conversa, o que são sistemas embarcados?
+
+Você certamente já viu um sistema embarcado. Provavelmente está usando um neste exato momento. Semáforo, sistemas de vigilância, urna eletrônica, smartphones, até mesmo os eletrodomésticos mais modernos possuem tal sistema. Mas afinal de contas, do que se tratam?
+
+Já aproveitando o ano eleitoral, vamos pensar na urna eletrônica. É um aparelho com uma função limitada: Receber e armazenar votos. Pense, não há a necessidade de um hardware poderoso, ao invés disso podemos criar um sistema que atenda especificamente o que o nosso problema inicial pede.
+
+O coração do sistema pode ser partir de processadores ou microcontroladores, vai depender da situação para qual o aparelho está sendo designado. A diferença entre os dois é simples: Enquanto o primeiro atua com o complemento dos tradicionais itens de um computador, como memória, o segundo precisa apenas de um chip, o que torna todo o sistema bem simples. 
+
+Mas por que usar tais sistemas? A reposta é simples: A relação custo x benefício. É uma forma simples e econômica de realizar tarefas que vão trazer conforto e praticidade para as nossas vidas. É uma forma de reduzir custos e consumo de energia e materiais como chips. É o caminho para um mundo mais simples e mais sustentável. 
+
+

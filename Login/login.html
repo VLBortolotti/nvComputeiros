@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="Login.css">
+
+    <!-- icones para o rodape e o login, respectivamente -->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous">
+    </script>
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <main>
+        <!-- Login -->
+        <div class="container">
+            <form action="#" class="login active">
+                <h2 class="title">Faça o login com sua conta</h2>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Seu email">
+                        <i class="bx bx-envelope"></i>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <div class="input-group">
+                        <input type="password" pattern=".{8,}" id="password" placeholder="Sua senha">
+                        <i class="bx bx-lock-alt"></i>
+                    </div>
+                    <span class="help-text">Pelo menos 8 caracteres</span>
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    Login
+                </button>
+                <a href="#">Esqueceu a senha?</a>
+                <p>
+                    Eu não tenho uma conta. <a href="#" onclick="trocarForm('register', event)">Registrar-se</a>
+                </p>
+                <br>
+                <hr>
+                <p id="seta-msg">
+                    <a href="../index.html">
+                        Clique aqui para ir à tela principal<br>
+                        <i class='bx bx-right-arrow-alt' id="seta">
+                        </i>
+                    </a>
+                </p>
+
+            </form>
+
+            <!-- Registro -->
+            <form action="#" class="register">
+                <h2 class="title">Registrar-se</h2>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Seu email">
+                        <i class='bx bx-envelope'></i>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <div class="input-group">
+                        <input type="password" pattern=".{8,}" id="password" placeholder="Sua senha">
+                        <i class="bx bx-lock-alt"></i>
+                    </div>
+                    <span class="help-text">Pelo menos 8 caracteres</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-pass">Confirmar senha</label>
+                    <div class="input-group">
+                        <input type="password" id="confirm-pass" placeholder="Confirme sua senha">
+                        <i class="bx bx-lock-alt"></i>
+                    </div>
+                    <span class="help-text">Senhas diferentes</span>
+                </div>
+
+                <button type="submit" class="btn-submit">Registrar</button>
+                <p>
+                    Eu já tenho uma conta. <a href="#" onclick="trocarForm('login', event)">Login</a>
+                </p>
+                <br>
+                <hr>
+                <p id="seta-msg">
+                    <a href="../index.html">
+                        Clique aqui para ir à tela principal<br>
+                        <i class='bx bx-right-arrow-alt' id="seta">
+                        </i>
+                    </a>
+                </p>
+            </form>
+        </div>
+    </main>    
+    
+    <script src="login.js"></script>
+</body>
+</html>

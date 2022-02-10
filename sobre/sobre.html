@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="sobre.css">
+		<title>Computeiros</title>
+
+		<!-- ícones -->
+		<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar">
+				<a class="titulo">Computeiros</a>
+
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="../index.html" class="nav-link">Home</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="../sobre/sobre.html" class="nav-link">Sobre</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="../contato/contato.html" class="nav-link">Contato</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="../Login/login.html" class="nav-link">Login</a>
+					</li>
+				</ul>
+
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<!-- Montando o Slider-->
+			<h3 class="product-slider-heading">
+				Sobre os Autores
+			</h3>
+
+			<!-- Texto -->
+			<section class="texto-principal">
+				Este website foi desenvolvido com o intuito de apresentar notícias sobre desenvolvimento web e embarcados (tendo como exemplo o microcontrolador ESP32, dentre outros), além de ser uma atividade avaliativa da disciplina de Sistemas para Internet I.
+				<br>
+				Este site foi desenvolvido por quatro estudantes.
+			</section>
+
+			<!-- As fotos -->
+			<div class="slider">
+
+				<div class="slider-items">
+					<div class="item active">
+						<img src="fotoDavi.jpeg" class="foto" />
+						<div class="caption">
+							Davi
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="fotoPablo.png" class="foto" />
+						<div class="caption">
+							Pablo
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="fotoVitor.png" class="foto" />
+						<div class="caption">
+							Vitor
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="fotoDiego.jpeg" class="foto" />
+						<div class="caption">
+							Diego
+						</div>
+					</div>
+				</div>
+
+				<!-- Controles dos Slides -->
+				<div class="esquerda-slider" onclick="anterior()">
+					<
+				</div>
+
+				<div class="direita-slider" onclick="proximo()">
+					>
+				</div>
+
+			</div>
+
+
+		</main>
+
+		<!-- rodapé -->
+		<footer>
+			<div class="grupo-1">
+				<div class="box">
+					<figure>
+						<img src="c3.png" alt="logo do c3">
+					</figure>
+				</div>
+
+				<div class="box">
+					<h2>Sobre nós</h2>
+					<p>
+						Somos quatro estudantes do curso de Sistemas de Informação, FURG, Centro de Ciências Computacionais.
+					</p>
+				</div>
+
+				<div class="box">
+					<h2>Siga-nos</h2>
+					<div class="rede-social">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-instagram"></a>
+						<a href="#" class="fa fa-twitter"></a>
+					</div>
+				</div>				
+			</div>
+
+			<div class="grupo-2">
+				<small>&copy; 2021 <strong>Computeiros</strong> - Todos os Direitos Reservados.</small>
+			</div>
+		</footer>
+
+		<script src="sobre.js"></script>
+	
+	</body>
+</html>

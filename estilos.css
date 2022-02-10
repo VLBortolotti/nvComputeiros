@@ -1,0 +1,405 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=sawp');
+
+/* Scroll suave para a seta */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Classes globais */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary: #8c38ff;
+	--dark: #212121;
+}
+
+/* Arrow up scroll */ 
+#btnScrollToTop {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	outline: none;
+	cursor: pointer; 
+}
+
+#btnScrollToTop:hover {
+	background-color: darkblue;
+	transition: all .3s ease;
+	box-shadow: 0 0 10px blue;
+}
+
+/*-------- Search Bar --------*/
+
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: 0.01rem solid var(--dark);
+  outline: none;
+  padding: 12px 30px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: powderblue;
+}
+
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: var(--primary);
+  color: white;
+}
+
+/*-------- Modificando o Header / Título do Site --------*/
+header {
+	background-color: var(--dark);
+	border-bottom: 3px solid var(--primary);
+}
+
+/* Estilizando o próprio menu */
+
+
+.nav-item {
+	list-style: none;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar {
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 24px;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap:60px;
+}
+
+/* Estilizando os links do menu */
+
+.titulo {
+	color: #FFF;
+	font-size: 28px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Fira sans', sans-serif;
+	cursor: default;
+}
+
+.titulo:hover {
+	color: var(--primary);
+}
+
+.nav-link {
+	transition: 0.7s ease;
+}
+
+.nav-link:hover {
+	color: var(--primary);
+}
+
+
+/* Estilizando o menu hamburger */
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+}
+
+.hamburger:hover span:nth-child(2) {
+	transform: translateX(10px);
+	background-color: var(--primary);
+}
+
+/* As barras do menu hamburger */
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: white; 
+}
+
+
+
+/*-------- Modificando o Body -------- */
+
+html, body {
+    margin: 0;
+}
+
+body {
+	font-family: Arial;
+	background: #f1f1f1;
+}
+
+
+/* Criando duas colunas desiguais */
+
+/*-------- Coluna Esquerda --------*/
+.leftcolumn {
+	float:left;
+	width:75%;
+	padding-left: 20px;
+	padding-top: 17px;
+}
+
+
+
+/*-------- Coluna Direita --------*/
+.rightcolumn {
+	float:left;
+	width:23%;
+	padding-left: 20px;
+}
+
+
+/*-------- Fake images --------*/
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+
+/*-------- Imagens reais --------*/
+.imagem {
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagem:hover {
+	box-shadow: 10px 5px 5px  rgba(0,0,0, 0.7);
+	width: 440px;
+	transition: all 1.3s ease;
+	cursor: pointer;
+}
+
+
+/*-------- cards / missao, objetivos do site --------*/
+
+.missao {
+	background-color: white;
+	margin-top: 3px;
+	margin-bottom: 30px;
+	padding: 15px 30px 15px 30px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.missao h1 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.card-artigos {
+	background-color: white;
+	margin-top: 3px;
+	margin-bottom: 30px;
+	padding: 0px 30px 0px 30px;
+	border-radius: 20px;
+}
+
+.card-artigos h2 {
+	margin-bottom: 20px;
+}
+
+/* offset-x | offset-y | blur-radius | color */
+.card-artigos:hover {
+	box-shadow: 5px 5px 20px var(--primary);
+}
+
+.card-artigos h2, h5{
+	text-align: center;
+}
+
+
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 47px;
+}
+
+.card-direita {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+
+/*-------- Limpando os floats após as colunas --------*/
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+/*-------- Rodapé --------*/
+footer {
+	width: 100%;
+	background-color: #0a141d;
+	margin-top: 200px;
+	font-family: 'Open Sans', sans-seriff;
+}
+
+footer .grupo-1 {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 45px 0px;
+}
+
+footer .grupo-1 .box figure {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .grupo-1 .box figure img {
+	width: 100px;
+}
+
+footer .grupo-1 .box h2 {
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+footer .grupo-1 .box p {
+	color: #efefef;
+	margin-bottom: 10px;
+}
+
+footer .grupo-1 .rede-social a {
+	display: inline-block;
+	text-decoration: none;
+	width: 50px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	margin-right: 10px;
+	background-color: #0d2033;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+footer .grupo-1 .rede-social a:hover {
+	color: var(--primary);
+}
+
+footer .grupo-2 {
+	background-color: #0a1a2a;
+	padding: 15px 10px;
+	text-align: center;
+	color: #fff;
+}
+
+footer .grupo-2 small {
+	font-size: 15px;
+}
+
+
+/*-------- Responsivo | telas < 768 px --------*/
+@media screen and (max-width: 768px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  
+  .imagem {
+		width: 300px;
+  }
+
+  .imagem:hover {
+		border: none;
+		width: 300px;
+	}
+
+  .hamburger{
+  	display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+  	opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+  	transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+  	transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .hamburger.active:hover span {
+  	background-color: var(--primary);
+  }
+
+  .nav-menu {
+  	position: fixed;
+  	left: -100%;
+  	top: 70px;
+  	gap: 0;
+  	flex-direction: column;
+  	background-color: #262626;
+  	width: 100%;
+  	text-align: center;
+  	transition: 0.3s;
+  }
+
+  .nav-item {
+  	margin: 16px 0;
+  }
+
+  .nav-menu.active {
+  	left: 0;
+  }
+
+/*----- Footer Responsivo -----*/
+
+  footer .grupo-1 {
+  	width: 90%;
+  	grid-template-columns: repeat(1, 1fr);
+  	grid-gap: 30px;
+  	padding: 35px 0px;
+  }
+}

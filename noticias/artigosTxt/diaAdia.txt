@@ -1,0 +1,11 @@
+Afinal de contas, o que faz um desenvolvedor?
+
+Muitos de nós que somos estudantes da área de tecnologia da informação buscamos seguir os rumos do desenvolvimento de software após a conclusão dos estudos. Mas alguém já se perguntou como que é o dia a dia de alguém que trabalha nesse mercado?
+
+O modelo mais comum de trabalho é por equipes. Nelas os desenvolvedores vão receber uma lista de tarefas, que são avaliadas por dificuldade e funcionalidade que elas vão trazer para o sistema. A partir daí eles estão prontos para começarem a estudar o problema e ao seu modo trazer soluções para ele. 
+
+A prioridade e a lista de tarefas em geral é ditada pelos membros do time que são os coordenadores. Deles vem a visão estratégica sobre as maiores necessidades do negócio. Normalmente essa parte da equipe é formada por um coordenador de recursos, um analista e um engenheiro de software. A ideia é que os três, em sintonia definam os planos para um período de tempo. 
+
+Eles reportam aos diretores ou donos da empresa, então nada é criado sem aval da diretoria. O interessante é que muitas empresas usam a metodologia de gestão chamada de Scrum, que consiste na elaboração de objetivos e um período de tempo (normalmente duas semanas) para finalização das mesmas. 
+
+O dia a dia de um profissional de desenvolvimento vai envolver muitos problemas e trabalho em equipe, bem como reuniões constantes e prazos nem sempre favoráveis, mas, com certeza, permite viver cada dia de uma forma diferente do anterior.

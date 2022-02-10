@@ -1,0 +1,34 @@
+O que é ESP32, pra que serve e quando usar? Venha saber mais sobre essa placa que vem chamando a atenção no mundo da tecnologia!
+
+A ESP32, assim como o Arduino, é uma placa de desenvolvimento. Isso significa que ela possui todos os recursos que você precisa para criar seus projetos. A fim de entendermos melhor essa placa, você irá conhecer quem a fabrica e quais são as suas principais funções. 
+
+Como ficou conhecida?
+
+Primeiramente, a placa ESP32 é fabricada pela empresa Espressif, e se tornou popularmente conhecida com o Modelo ESP01.
+ESP8266 ou ESP-01
+
+Posteriormente, a ESP8266 ganhou espaço na cultura maker no ano de 2014, a partir disso, ela tornou-se um grande sucesso pela sua capacidade de fazer conexões WiFi.
+
+Sendo assim, esse chip também possui um poder de processamento muito superior ao popularmente conhecido Arduino UNO.
+
+Além disso, na data de lançamento seu preço já era abaixo de 10 dólares. Dessa maneira, por contar com todos esses recursos, se tornou famoso no mundo dos desenvolvedores.
+
+Nesse sentido, vamos ver a seguir algumas versões mais avançadas que surgiram no decorrer do desenvolvimento da linha ESP.
+ESP12 e NODE MCU
+
+Em seguida, a fabricante acertou novamente em disponibilizar, o chip chamado de NODE MCU, ou seja, uma evolução do ESP8266. Tal versão, agora acompanhava também, uma conexão USB e um layout que facilita muito a utilização da placa com a protoboard.
+ESP32 e o Advento da Internet Das Coisas
+
+Essencialmente, já se sabe que, em time que está ganhando, não se mexe.
+
+E foi exatamente isso que a Espressif pensou, ao lançar o modelo ESP32.
+
+Acompanhando o modelo StandAlone e também o modelo de desenvolvimento, a linha ESP dessa vez chegou com um super processador dual core, com até 240MHZ de velocidade, contando ainda com conexão WiFi e Bluetooth BLE.
+
+Isso quer dizer que, além do chip possuir conexão com a internet sem fio, agora possuía também conexão bluetooth e processador com dois núcleos.
+
+Vale lembrar que, em todos os casos, o firmware dessa placa é baseado no RTOS, que permite fazer o gerenciamento de multi tarefas e também o gerenciamentos dos núcleos da placa.
+
+Como resultado, não demorou muito para essa placa se tornar a queridinha dos makers.
+
+Definitivamente, hoje, a placa começa a se tornar uma referência em Internet das Coisas. 

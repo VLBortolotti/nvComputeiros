@@ -1,0 +1,16 @@
+Entenda o que é Assembly
+
+Saber o que é Assembly e entender o que é Assembly são duas coisas diferentes. Este artigo tem o intuito de explicar claramente o que é Assembly tanto na teoria quanto na prática. E isto pode, inclusive, ajudar a aprender a linguagem.Assembly é uma linguagem de programação de baixo nível. Mas você sabe o que isso significa na prática?
+
+Cada arquitetura de processador, por exemplo x86 ou ARM, tem um código de máquina diferente com instruções diferentes.
+É claro que após o trabalho de projetar uma nova arquitetura é terminado, não existem ferramentas como compiladores etc. para essa arquitetura.
+Então é necessário fazer a documentação dessa arquitetura para que os desenvolvedores sejam capazes de estudá-la e projetar ferramentas para as mesmas, ou então, portar ferramentas já existentes para essa arquitetura.
+
+Dentre as diversas informações que podemos encontrar sobre uma arquitetura, existe o ISA que é o conjunto de instruções do código de máquina que aquela arquitetura contém.
+Porém, o código de máquina é um tanto quanto difícil de ler. Para facilitar o entendimento e memorização pelos desenvolvedores, as instruções recebem nomes e um formato em texto mnemônico que facilita a leitura e o entendimento.
+
+Então é por isso que Assembly é uma linguagem de baixo nível, já que suas instruções são as mesmas instruções do código de máquina. Há uma correspondência direta com quase nenhuma abstração do código de máquina. (eu disse quase…)
+
+O assembler é o software que converte o código em Assembly para o código de máquina.
+Existem também adições que o assembler pode fazer para que facilite a programação em Assembly, como por exemplo o pré-processador do NASM que oferece bastante recursos.
+Isso não quer dizer que seja uma “versão diferente” da linguagem Assembly e nem torna a linguagem “mais alto nível”, isto é apenas um conforto dado pelo assembler.

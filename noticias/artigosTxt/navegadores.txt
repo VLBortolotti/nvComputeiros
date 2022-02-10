@@ -1,0 +1,13 @@
+O que é um navegador?
+
+Os navegadores, ou em inglês browsers, são programas concebidos para abrir páginas de Internet, conhecidas também por web sites ou simplesmente sites, que podem ser escritas em linguagens como HTML, HTML5 ou XHTML. Estes sites têm de estar hospedados em servidores Web (ou em inglês Web Servers).
+
+Para poderem funcionar, a comunicação dos navegadores é feita através de servidores Web utilizando diferentes tipos de protocolos de transferência, entre os quais, o mais conhecido hiper-texto HTTP (do inglês Hypertext Transfer Protocol ou em português Protocolo de Transferência de Hipertexto). Nessa comunicação são transferidos bilateralmente dados de informação em ficheiros (arquivos).
+
+Vamos a um exemplo prático, suponhamos que você está no seu computador e abre um site, por exemplo o “i-Técnico”, você tem de começar por digitar o endereço na barra de endereços do navegador. Quando carregar a tecla “Enter” será enviado um pedido de acesso para o servidor web onde o “i-Técnico” está alojado. Assim que o servidor receber esse pedido, ele regista num ficheiro (arquivo) informações como o endereço IP (do inglês Internet Protocol ou em português Protocolo de Internet) que funciona como a Identificação do utilizador (usuário) na Internet entre outros dados. De seguida esse ficheiro (arquivo), conhecido em inglês como cookie, é enviado para o computador e é colocado dentro de uma pasta geralmente com o nome “Temp” (abreviação de Temporária). Esse cookie será reenviado para o servidor do nosso site sempre que o utilizador (usuário) voltar a entrar nele. Assim que é gravado esse cookie no computador, são transferidas as imagens do site (se existirem), para essas pastas temporárias do computador.
+
+Como é que tudo começou?
+
+O primeiro servidor web foi inventado pelo britânico Tim Berners-Lee (à esquerda na foto) e pelo belga Robert Cailliau (à direita) que desenvolveram e conseguiram a primeira comunicação entre um cliente HTTP e o servidor através da Internet nos finais de 1990, no CERN (antigo acrónimo francês para Conseil Européen pour la Recherche Nucléaire, em português Conselho Europeu para a Pesquisa Nuclear).
+
+Não é por acaso que encontramos esses 3 W no início da maioria dos sites, pois o primeiro navegador tem mesmo esse nome WorldWideWeb e foi desenvolvido em 1990 por Tim Berners-Lee no CERN.

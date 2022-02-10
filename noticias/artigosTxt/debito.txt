@@ -1,0 +1,11 @@
+Débito técnico: a eterna dívida do desenvolvimento. 
+
+Quando um projeto de tecnologia se depara com algum problema normalmente existem dois caminhos: Um paliativo, que vai resolver o problema momentaneamente e outro que precisa de mais recursos, porém traz uma solução mais satisfatória no longo prazo. 
+
+Uma decisão dessas envolvem diversos fatores. Quanto tempo o produto consegue continuar funcional com o problema? Há prejuízo se ele permanecer por muito tempo? A equipe possui recursos o suficiente para uma solução a longo prazo? 
+
+Quem nunca se deparou com a famosa gambiarra? Seja aquele jeitinho na fechadura da porta, ou uma solução no código que resolve o problema, sem sequer identificar o causador do mesmo. Tais soluções realmente têm efeito imediato, mas e como que fica o longo prazo?
+
+Por outro lado, você é capaz de ficar dias sem conseguir trancar a porta? Dispõe de orçamento para chamar um chaveiro profissional? Existe a possibilidade de não oferecer  serviço enquanto os desenvolvedores trabalham em uma solução definitiva para o problema?
+
+Enquanto futuros desenvolvedores, cabe a nós olhar e sempre colocar em questão o custo-benefício de cada solução imediata frente a uma para o longo prazo. Buscar simplificar os problemas e não simplesmente criar atalhos. 

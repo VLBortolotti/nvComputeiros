@@ -1,0 +1,35 @@
+O que é Linguagem C?
+
+A linguagem C foi criada por Dennis Ritchie nos laboratórios da Bell Telephone em 1972.
+
+C foi criada com um propósito: ser usada no desenvolvimento de uma nova versão do sistema operacional Unix. A primeira versão do Unix utilizava Assembly. Então podemos dizer que desde o principio C foi uma linguagem criada por programadores para programadores.
+
+A linguagem C é considerada de propósito geral, ou seja é uma linguagem capaz de ser usada para praticamente qualquer tipo de projeto.
+
+É extremamente portável, ou seja um programa escrito em linguagem C pode ser facilmente usado em qualquer plataforma.
+
+Utilizando linguagem C podemos criar sistemas operacionais, aplicativos de todos os tipos, drivers e outros controladores de dispositivos, programar microcontroladores, etc.
+
+Além de toda essa flexibilidade, C é capaz de gerar programas extremamente rápidos em tempo de execução, possui uma sintaxe simples e poderosa, com instruções de alto nível.
+
+A linguagem C influenciou de forma direta muitas linguagens como C++, Java, C# , Objective C, e muitas outras linguagens de programação tem sua sintaxe e estruturas influenciadas por C.
+
+C é uma linguagem extremamente popular e existem muitos compiladores C disponíveis para todas as plataformas.
+
+ANSI C
+
+No início C e Unix estavam bem atrelados, pois cada nova implementação de Unix para um tipo de máquina, requeria um novo compilador C específico para essa máquina.
+
+Nos anos 80 a linguagem C tornou-se popular também fora do ambiente Unix. Nessa época surgiram novos compiladores comerciais de C e a linguagem passou a ser reconhecida como linguagem de propósito geral.
+
+Com o desenvolvimento de diversos compiladores, tornou-se necessário padronizar a linguagem,  a fim de garantir a compatibilidade e a portabilidade da linguagem.
+
+A ANSI – American National Standards Institute foi a entidade encarregada de realizar a padronização da linguagem. Após a laboração do padrão este foi denominado de C ANSI. Este padrão foi revisto diversas vezes ao longo do tempo e posteriormente foi também reconhecido pela ISO, dando origem ao que chamamos de padrão ANSI/ISO C.
+
+C11
+
+Uma revisão do padrão iniciou em 2007 e foi finalizada e publicada em dezembro de 2011, adicionando recursos e melhorando a compatibilidade com C++.
+
+C18
+
+Um padrão mais atual foi publicado em junho de 2018, denominado padrão C18. Este padrão praticamente faz apenas correções técnicas do padrão C11, não apresentando novos recursos, porém corrigindo problemas do C11.
