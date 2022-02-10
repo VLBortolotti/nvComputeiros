@@ -4,6 +4,6 @@ Voce certamente ja viu um sistema embarcado. Provavelmente esta usando um neste 
 
 Ja aproveitando o ano eleitoral, vamos pensar na urna eletronica. E um aparelho com uma funcao limitada: Receber e armazenar votos. Pense, nao ha a necessidade de um hardware poderoso, ao inves disso podemos criar um sistema que atenda especificamente o que o nosso problema inicial pede.
 
-O coraca do sistema pode ser partir de processadores ou microcontroladores, vai depender da situação para qual o aparelho esta sendo designado. A diferença entre os dois e simples: Enquanto o primeiro atua com o complemento dos tradicionais itens de um computador, como memória, o segundo precisa apenas de um chip, o que torna todo o sistema bem simples. 
+O coraca do sistema pode ser partir de processadores ou microcontroladores, vai depender da situacao para qual o aparelho esta sendo designado. A diferenca entre os dois e simples: Enquanto o primeiro atua com o complemento dos tradicionais itens de um computador, como memoria, o segundo precisa apenas de um chip, o que torna todo o sistema bem simples. 
 
 Mas por que usar tais sistemas? A reposta e simples: A relacao custo x beneficio. E uma forma simples e economica de realizar tarefas que vao trazer conforto e praticidade para as nossas vidas. E uma forma de reduzir custos e consumo de energia e materiais como chips. E o caminho para um mundo mais simples e mais sustentavel. 

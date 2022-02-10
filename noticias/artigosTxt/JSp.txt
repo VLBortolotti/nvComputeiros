@@ -1,7 +1,0 @@
-JavaScript e a interatividade da página.
-
-JavaScript é uma linguagem de programação. Toda interatividade que você encontra nas páginas é fruto do trabalho em JavaScript. Atuando no client side ele permite a programação orientada a eventos, o que vai resultar em uma ação a partir de um input do usuário. 
-
-Como a terceira peça fundamental para a internet que navegamos, o JavaScript é a única que trata da programação de fato. Ela possui basicamente os elementos que a um programador já conhece, como estruturas de repetição, condicionais, listas e variáveis. Sendo assim bastante interessante de se aprender.
-
-É uma linguagem bem solicitada em um mercado de trabalho que já está aquecido. Se especializar em JavaScript é um caminho interessante para aqueles que buscam uma colocação profissional segura. 

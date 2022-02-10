@@ -1,11 +1,11 @@
 Como funciona a internet?
 
-Você por acaso já se perguntou como funciona a internet? De onde vem essa quantidade absurda de informação que nós consumimos diariamente? Como são feitas as páginas e os sites que tanto utilizamos?
+Voce por acaso ja se perguntou como funciona a internet? De onde vem essa quantidade absurda de informacao que nos consumimos diariamente? Como sao feitas as paginas e os sites que tanto utilizamos?
 
-Neste artigo falaremos como as páginas da internet funcionam. Os sites estão hospedados em servidores, que são computadores focados em armazenamento de dados. Quando você digita uma URL, que é o endereço do site, você está informando qual servidor você está tentando acessar. 
+Neste artigo falaremos como as paginas da internet funcionam. Os sites estao hospedados em servidores, que sao computadores focados em armazenamento de dados. Quando voce digita uma URL, que e o endereÃ§o do site, vocÃª esta informando qual servidor voce esta tentando acessar. 
 
-Dentro deste servidor o conteúdo fica organizado em pastas, por isso os endereços possuem as /. Elas vão direcionar exatamente onde está a página que você está acessando agora. O que o seu computador recebe nada mais é do que um arquivo de texto contendo a página que você está acessando.
+Dentro deste servidor o conteudo fica organizado em pastas, por isso os enderecos possuem as /. Elas vao direcionar exatamente onde esta a pagina que vocÃª esta acessando agora. O que o seu computador recebe nada mais e do que um arquivo de texto contendo a pagina que voce esta acessando.
 
-O seu navegador é um tradutor que transforma todo um texto que para muitas pessoas não possui sentido algum nas páginas com designs incríveis que vemos todos os dias enquanto navegamos na internet. 
+O seu navegador e um tradutor que transforma todo um texto que para muitas pessoas nao possui sentido algum nas paginas com designs incriveis que vemos todos os dias enquanto navegamos na internet. 
 
-Portanto, lembre-se. Sempre que você estiver em algum site, como este, por exemplo, saiba que por trás do visual pensando diretamente para você apreciar o conteúdo, existem três linguagens complexas trabalhando juntas para termos o resultado na tela: HTML, CSS e Javascript.
+Portanto, lembre-se. Sempre que voce estiver em algum site, como este, por exemplo, saiba que por tras do visual pensando diretamente para voce apreciar o conteudo, existem tres linguagens complexas trabalhando juntas para termos o resultado na tela: HTML, CSS e Javascript.
