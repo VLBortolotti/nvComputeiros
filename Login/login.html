@@ -31,7 +31,10 @@
                 <div class="form-group">
                     <label for="password">Senha</label>
                     <div class="input-group">
-                        <input type="password" pattern=".{8,}" id="password" placeholder="Sua senha">
+                        <input type="password" pattern=".{8, }" id="password" placeholder="Sua senha">
+                        
+                        
+                        
                         <i class="bx bx-lock-alt"></i>
                     </div>
                     <span class="help-text">Pelo menos 8 caracteres</span>
@@ -62,7 +65,7 @@
                 <div class="form-group">
                     <label for="email">Email</label>
                     <div class="input-group">
-                        <input type="email" id="email" placeholder="Seu email">
+                        <input type="email" id="email" class="email" placeholder="Seu email">
                         <i class='bx bx-envelope'></i>
                     </div>
                 </div>
@@ -70,7 +73,7 @@
                 <div class="form-group">
                     <label for="password">Senha</label>
                     <div class="input-group">
-                        <input type="password" pattern=".{8,}" id="password" placeholder="Sua senha">
+                        <input type="password" pattern=".{8,}" id="password" class="password" placeholder="Sua senha">
                         <i class="bx bx-lock-alt"></i>
                     </div>
                     <span class="help-text">Pelo menos 8 caracteres</span>
@@ -85,7 +88,8 @@
                     <span class="help-text">Senhas diferentes</span>
                 </div>
 
-                <button type="submit" class="btn-submit">Registrar</button>
+                <button onclick="cadastrar()" type="submit" class="btn-submit"  >Registrar</button>
+                
                 <p>
                     Eu já tenho uma conta. <a href="#" onclick="trocarForm('login', event)">Login</a>
                 </p>
@@ -103,5 +107,8 @@
     </main>    
     
     <script src="login.js"></script>
+<script>
+    
+</script>
 </body>
 </html>
